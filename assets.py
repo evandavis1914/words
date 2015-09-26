@@ -332,7 +332,7 @@ OK = """
    ___    _  __
   / _ \  | |/ /
  | (_) | | ' <
-  \___/  |_|\_\
+  \___/  |_|\_\\
 """
 
 X = """
@@ -378,4 +378,7 @@ def get_system_voices():
     return voices
 
 
-VOICES = get_system_voices()
+VOICES = [
+    'Alex', 'Cellos', 'Daniel', 'Ralph', 'Samantha',
+    'Trinoids', 'Vicki', 'Victoria', 'Zarvox'
+]
